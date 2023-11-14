@@ -8,7 +8,7 @@ import ChatProvider from "./Context/ChatProvider";
 import { BrowserRouter } from "react-router-dom";
 import axios from "axios";
 
-axios.defaults.baseURL = "https://chatapp-backend-4q9z.onrender.com";
+axios.defaults.baseURL = "https://chat-buddy-backend.onrender.com";
 axios.defaults.withCredentials = true;
 ReactDOM.render(
   <ChakraProvider>
